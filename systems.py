@@ -48,7 +48,7 @@ class Hammurabi:
             print("Advisor: The kingdom is stable, my lord. Continue your wise governance.")
         #Build another set of code for handling random events in the kingdom and ways to counteract it
         
-        def handle_random_events(self):
+        def random_events(self):
             event_chance = random.randint(1, 100)
             if event_chance <= 10:
                 print("Random Event: A plague has struck the kingdom, reducing the population by 10%.")
